@@ -7398,23 +7398,33 @@ and open the template in the editor.
 /* line 13, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li {
   border-right: 1px dotted #9c9c9c;
-  padding: 0px 10px 0px 0px;
+  padding: 0 1.375em;
+  margin: 0;
 }
-/* line 17, ../scss/theme/ubiq/_navigation.scss */
+/* line 18, ../scss/theme/ubiq/_navigation.scss */
+.navigation #main-menu-links li:last-of-type {
+  border: none;
+  padding: 0 0 0 1.375em;
+}
+/* line 23, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li a {
   color: #9c9c9c;
 }
+/* line 26, ../scss/theme/ubiq/_navigation.scss */
+.navigation #main-menu-links li a.active {
+  color: #000000;
+}
 
-/* line 23, ../scss/theme/ubiq/_navigation.scss */
+/* line 33, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns {
   background-color: #f8f8f8;
 }
-/* line 27, ../scss/theme/ubiq/_navigation.scss */
+/* line 37, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li {
   list-style-type: none;
   display: inline;
 }
-/* line 31, ../scss/theme/ubiq/_navigation.scss */
+/* line 41, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li a {
   color: #9c9c9c;
 }
