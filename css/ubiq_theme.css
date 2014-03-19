@@ -7365,3 +7365,56 @@ and open the template in the editor.
     Created on : 19-Mar-2014, 16:03:31
     Author     : theonicolaou
 */
+/* line 11, ../scss/theme/ubiq/_global.scss */
+body.page-home {
+  background-image: url("../images/london_skyline_bg.png");
+  background-repeat: no-repeat;
+  background-position: 410px 150px;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Mar-2014, 16:30:36
+    Author     : theonicolaou
+*/
+/* line 11, ../scss/theme/ubiq/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Mar-2014, 16:41:45
+    Author     : theonicolaou
+*/
+/* line 13, ../scss/theme/ubiq/_navigation.scss */
+.navigation #main-menu-links li {
+  border-right: 1px dotted #9c9c9c;
+  padding: 0px 10px 0px 0px;
+}
+/* line 17, ../scss/theme/ubiq/_navigation.scss */
+.navigation #main-menu-links li a {
+  color: #9c9c9c;
+}
+
+/* line 23, ../scss/theme/ubiq/_navigation.scss */
+.l-footer-columns {
+  background-color: #f8f8f8;
+}
+/* line 27, ../scss/theme/ubiq/_navigation.scss */
+.l-footer-columns .menu li {
+  list-style-type: none;
+  display: inline;
+}
+/* line 31, ../scss/theme/ubiq/_navigation.scss */
+.l-footer-columns .menu li a {
+  color: #9c9c9c;
+}
