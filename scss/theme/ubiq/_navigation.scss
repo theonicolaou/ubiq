@@ -12,10 +12,20 @@ and open the template in the editor.
     #main-menu-links {
         li {
             border-right: 1px dotted #9c9c9c;
-            padding: 0px 10px 0px 0px;
+            padding: 0 1.375em;
+            margin: 0;
+            
+            &:last-of-type {
+                border: none;
+                padding: 0 0 0 1.375em;
+            }
             
             a {
                 color: #9c9c9c;
+                
+                &.active {
+                    color: #000000;
+                }
             }
         }
     }
