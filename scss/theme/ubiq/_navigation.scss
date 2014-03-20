@@ -44,6 +44,8 @@ and open the template in the editor.
     .block-system-main-menu {
         .menu {
             li {
+                text-transform: uppercase;
+
                 a {
                     color: #000000;
                 }
