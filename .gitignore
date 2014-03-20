@@ -4,3 +4,4 @@ robots.txt
 .sass-cache
 *.DS_Store
 *Gemfile
+/css
