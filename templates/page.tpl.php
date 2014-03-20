@@ -93,7 +93,7 @@
                 <?php if ($site_slogan): ?>
                     <h2 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h2>
                 <?php endif; ?>
-                    <h2>020 7291 3700 | <a href="#">SEND A MESSAGE</a></h2>
+                    <h2><img src="<?php print base_path() . path_to_theme(); ?>/images/telephone_box_icon.jpg" alt="Call us" />020 7291 3700 | <img src="<?php print base_path() . path_to_theme(); ?>/images/letterbox_icon.jpg" /><a href="#">SEND A MESSAGE</a></h2>
            </div>
        </div>
        <div class="row">
