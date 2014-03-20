@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 .view-taxi-formatt {
-    .views-field-title {
+    .views-field-titlee {
         color: #000000;
         font-size: 1.7em;
         text-transform: uppercase;
@@ -17,7 +17,7 @@ and open the template in the editor.
     .views-field-field-bullet-points {
         ul {
             li {
-                /*list-style-image: url('')*/
+                list-style-image: url('../images/taxi_bullet_point.jpg');
             }
         }
     }
