@@ -15,7 +15,9 @@ body {
 
 a {
     color: $darkRed;
-    &:hover{ color: #000000; }
+    &:hover {
+        color: #000000;
+    }
 }
 
 h1, h2, h3 {
