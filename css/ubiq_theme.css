@@ -7382,13 +7382,19 @@ and open the template in the editor.
     Author     : theonicolaou
 */
 /* line 11, ../scss/theme/ubiq/_typography.scss */
+body {
+  color: #656363;
+  font-size: 0.95em;
+}
+
+/* line 16, ../scss/theme/ubiq/_typography.scss */
 h1, h2, h3 {
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: normal;
 }
 
-/* line 17, ../scss/theme/ubiq/_typography.scss */
+/* line 22, ../scss/theme/ubiq/_typography.scss */
 .site-slogan {
   font-size: 1.0em;
   font-weight: normal;
@@ -7438,16 +7444,20 @@ and open the template in the editor.
 .l-footer-columns {
   background-color: #f8f8f8;
 }
-/* line 47, ../scss/theme/ubiq/_navigation.scss */
+/* line 46, ../scss/theme/ubiq/_navigation.scss */
+.l-footer-columns .block-system-main-menu .menu li {
+  text-transform: uppercase;
+}
+/* line 49, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .block-system-main-menu .menu li a {
   color: #000000;
 }
-/* line 55, ../scss/theme/ubiq/_navigation.scss */
+/* line 57, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li {
   list-style-type: none;
   display: inline;
 }
-/* line 59, ../scss/theme/ubiq/_navigation.scss */
+/* line 61, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li a {
   color: #9c9c9c;
 }
