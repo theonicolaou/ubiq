@@ -27,10 +27,16 @@ body {
 }
 
 .page-home {
-    .pane-taxi-formats-menu{
-        .pane-title{
+    .pane-taxi-formats-menu {
+        border-bottom: 1px dotted #9c9c9c;
+        .pane-title {
             @extend %title;
         }
     }
 }
 
+.pane-home-twitter {
+    .pane-title {
+        @extend %title;
+    }
+}
