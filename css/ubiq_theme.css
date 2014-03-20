@@ -7412,52 +7412,56 @@ and open the template in the editor.
 /* line 11, ../scss/theme/ubiq/_navigation.scss */
 .navigation {
   margin: 1em 0 0 0;
-  padding: 0.5em 0;
+  padding: 0.75em 0;
   border-top: 1px dotted #9c9c9c;
 }
-/* line 17, ../scss/theme/ubiq/_navigation.scss */
+/* line 16, ../scss/theme/ubiq/_navigation.scss */
+.navigation #main-menu-links {
+  margin-bottom: 0;
+}
+/* line 19, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li {
   text-transform: uppercase;
   border-right: 1px dotted #9c9c9c;
   padding: 0 0.6em;
   margin: 0;
 }
-/* line 23, ../scss/theme/ubiq/_navigation.scss */
+/* line 25, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li.first {
   margin-left: 1.375em;
 }
-/* line 26, ../scss/theme/ubiq/_navigation.scss */
+/* line 28, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li:last-of-type {
   border: none;
   padding-right: 0;
 }
-/* line 31, ../scss/theme/ubiq/_navigation.scss */
+/* line 33, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li a {
   color: #9c9c9c;
 }
-/* line 34, ../scss/theme/ubiq/_navigation.scss */
+/* line 36, ../scss/theme/ubiq/_navigation.scss */
 .navigation #main-menu-links li a.active {
   color: #000000;
 }
 
-/* line 41, ../scss/theme/ubiq/_navigation.scss */
+/* line 43, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns {
   background-color: #f8f8f8;
 }
-/* line 46, ../scss/theme/ubiq/_navigation.scss */
+/* line 48, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .block-system-main-menu .menu li {
   text-transform: uppercase;
 }
-/* line 49, ../scss/theme/ubiq/_navigation.scss */
+/* line 51, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .block-system-main-menu .menu li a {
   color: #000000;
 }
-/* line 57, ../scss/theme/ubiq/_navigation.scss */
+/* line 59, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li {
   list-style-type: none;
   display: inline;
 }
-/* line 61, ../scss/theme/ubiq/_navigation.scss */
+/* line 63, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li a {
   color: #9c9c9c;
 }
