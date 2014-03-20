@@ -83,7 +83,7 @@
   <!--/.l-header -->
   
   <!-- Akbar New Header -->
-  
+  <section class="row">
    <header class="main-header">
        <div class="row">       
            <div class="large-6 columns">
@@ -96,15 +96,27 @@
                     <h2><img src="<?php print base_path() . path_to_theme(); ?>/images/telephone_box_icon.jpg" alt="Call us" />020 7291 3700 | <img src="<?php print base_path() . path_to_theme(); ?>/images/letterbox_icon.jpg" /><a href="#">SEND A MESSAGE</a></h2>
            </div>
        </div>
-       <div class="row">
-            <?php if ($alt_main_menu): ?>
-                <nav id="main-menu" class="navigation" role="navigation">
-                <?php print ($alt_main_menu); ?>
-                </nav> <!-- /#main-menu -->
-            <?php endif; ?>
-       </div>
-   </header>
 
+        <nav id="main-menu" class="navigation" role="navigation">
+            <div class="row">
+                <div class="large-2 columns">
+                    <a href="#"><img src="<?php print base_path() . path_to_theme(); ?>/images/agencies_signpost.jpg" /></a> 
+                </div>
+                <div class="large-8 columns">
+                    <?php if ($alt_main_menu): ?>                    
+                            <?php print ($alt_main_menu); ?>
+                    <?php endif; ?>
+                </div>
+                <div class="large-2 columns">
+                    <a href="#" style=""><img src="<?php print base_path() . path_to_theme(); ?>/images/advertisers_signpost.jpg" /></a> 
+                </div>
+            </div>
+
+        </nav> <!-- /#main-menu -->
+        
+
+   </header>
+  </section>>
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
     <section class="l-featured row">
