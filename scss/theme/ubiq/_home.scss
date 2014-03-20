@@ -40,3 +40,26 @@ body {
         @extend %title-dotted;
     }
 }
+
+.pane-home-generic-promotion {
+    padding: 0.95em 0;
+
+    .views-field-title {
+        color: #000000;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+    .views-field-body {
+        margin-top: 1em;
+    }
+
+    .views-field-field-link-button-label {
+        a {
+            text-transform: uppercase;
+            border: 1px dotted $lightGrey;
+            padding: 0.75em 0.6em;
+            color: $darkGrey;
+        }
+    }
+}
