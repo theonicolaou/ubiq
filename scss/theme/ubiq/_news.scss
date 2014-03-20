@@ -10,8 +10,8 @@ and open the template in the editor.
 
 .view-featured-news-item {
     .views-field-title {
-        border-top: 2px dotted #9c9c9c;
-        border-bottom: 2px dotted #9c9c9c;
+        border-top: 2px dotted $lightGrey;
+        border-bottom: 2px dotted $lightGrey;
         padding: 0.9em 0;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
@@ -40,30 +40,53 @@ and open the template in the editor.
     .views-field-view-node {
         a {
             text-transform: uppercase;
-            border: 1px dotted #9c9c9c;
+            border: 1px dotted $lightGrey;
             padding: 0.75em 0.6em;
-            color: #9c9c9c;
+            color: $darkGrey;
         }
     }
 }
 
 .view-news-items {
     .views-field-title {
-        border-top: 2px dotted #9c9c9c;
-        border-bottom: 2px dotted #9c9c9c;
+        border-top: 2px dotted $lightGrey;
+        border-bottom: 2px dotted $lightGrey;
         padding: 0.9em 0;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
         text-transform: uppercase;
-        color: #b60604;
+        color: $darkRed;
     }
-
+    
+    /* TODO: this will be a "read-more" class */
     .views-field-view-node {
         a {
             text-transform: uppercase;
-            border: 1px dotted #9c9c9c;
+            border: 1px dotted $lightGrey;
             padding: 0.75em 0.6em;
-            color: #9c9c9c;
+            color: $darkGrey;
+        }
+    }
+}
+
+.view-news-items-without-images {
+    .views-field-title {
+        border-top: 2px dotted $lightGrey;
+        border-bottom: 2px dotted $lightGrey;
+        padding: 0.9em 0;
+        margin: 0 0 1.1em 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: $darkGrey;
+    }
+    
+    /* TODO: this will be a "read-more" class */
+    .views-field-view-node {
+        a {
+            text-transform: uppercase;
+            border: 1px dotted $lightGrey;
+            padding: 0.75em 0.6em;
+            color: $darkGrey;
         }
     }
 }
