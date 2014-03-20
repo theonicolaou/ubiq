@@ -27,11 +27,10 @@ body {
 }
 
 .page-home {
-    .pane-taxi-formats-menu {
-        .pane-title {
-            border-top: 1px dotted $lightGrey;
-            border-bottom: 1px dotted $lightGrey;
-            padding: 0.6em 0;
+    .pane-taxi-formats-menu{
+        .pane-title{
+            @extend %title;
         }
     }
 }
+
