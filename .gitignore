@@ -5,3 +5,4 @@ robots.txt
 *.DS_Store
 *Gemfile
 /css
+/nbproject
