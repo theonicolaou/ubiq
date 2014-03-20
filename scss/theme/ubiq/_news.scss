@@ -10,9 +10,7 @@ and open the template in the editor.
 
 .view-featured-news-item {
     .views-field-title {
-        border-top: 2px dotted $lightGrey;
-        border-bottom: 2px dotted $lightGrey;
-        padding: 0.9em 0;
+        @extend %title-dotted;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
         text-transform: uppercase;
@@ -49,9 +47,7 @@ and open the template in the editor.
 
 .view-news-items {
     .views-field-title {
-        border-top: 2px dotted $lightGrey;
-        border-bottom: 2px dotted $lightGrey;
-        padding: 0.9em 0;
+        @extend %title-dotted;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
         text-transform: uppercase;
@@ -71,9 +67,7 @@ and open the template in the editor.
 
 .view-news-items-without-images {
     .views-field-title {
-        border-top: 2px dotted $lightGrey;
-        border-bottom: 2px dotted $lightGrey;
-        padding: 0.9em 0;
+        @extend %title-dotted;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
         text-transform: uppercase;
