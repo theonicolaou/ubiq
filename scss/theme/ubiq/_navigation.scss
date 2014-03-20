@@ -9,10 +9,11 @@ and open the template in the editor.
 */
 
 .navigation {
-    margin: 1em 0 0 0;
+    margin: 1em 0 1.2em 0;
     padding: 0.75em 0;
     border-top: 1px dotted #9c9c9c;
-
+    border-bottom: 1px dotted #9c9c9c;
+    
     #main-menu-links {
         margin-bottom: 0;
 

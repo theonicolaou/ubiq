@@ -30,7 +30,7 @@
     <?php endif; ?>
 
     <!-- Title, slogan and menu -->
-    <?php if ($alt_header): ?>
+    <?php if (!$alt_header): ?>
     <section class="row <?php print $alt_header_classes; ?>">
 
       <?php if ($linked_logo): print $linked_logo; endif; ?>
@@ -81,6 +81,29 @@
 
   </header>
   <!--/.l-header -->
+  
+  <!-- Akbar New Header -->
+  
+   <header class="main-header">
+       <div class="row">       
+           <div class="large-6 columns">
+                 <?php if ($linked_logo): print $linked_logo; endif; ?>
+           </div>
+           <div class="large-6 columns">       
+                <?php if ($site_slogan): ?>
+                    <h2 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h2>
+                <?php endif; ?>
+                    <h2>020 7291 3700 | <a href="#">SEND A MESSAGE</a></h2>
+           </div>
+       </div>
+       <div class="row">
+            <?php if ($alt_main_menu): ?>
+                <nav id="main-menu" class="navigation" role="navigation">
+                <?php print ($alt_main_menu); ?>
+                </nav> <!-- /#main-menu -->
+            <?php endif; ?>
+       </div>
+   </header>
 
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
@@ -121,8 +144,9 @@
       <?php endif; ?>
 
       <a id="main-content"></a>
-
-      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+      
+      <!-- Akbar removed breadcrumb -->
+      <?php //if ($breadcrumb): print $breadcrumb; endif; ?>
 
       <?php if ($title && !$is_front): ?>
         <?php print render($title_prefix); ?>
