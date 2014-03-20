@@ -29,9 +29,14 @@ body {
 .page-home {
     .pane-taxi-formats-menu {
         border-bottom: 1px dotted $lightGrey;
+
         .pane-title {
             @extend %title-dotted;
         }
+    }
+
+    .view-taxi-formats-menu {
+        padding: 1.4em 0;
     }
 }
 
