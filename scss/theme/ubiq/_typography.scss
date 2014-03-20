@@ -9,12 +9,12 @@ and open the template in the editor.
 */
 
 body {
-    color: #656363;
+    color: $lightGrey;
     font-size: 0.95em;
 }
 
 a {
-    color: #9c0000;
+    color: $darkRed;
 }
 
 h1, h2, h3 {
