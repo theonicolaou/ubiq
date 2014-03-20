@@ -7486,3 +7486,7 @@ and open the template in the editor.
   font-size: 1.7em;
   text-transform: uppercase;
 }
+/* line 19, ../scss/theme/ubiq/_taxi-formats.scss */
+.view-taxi-formatt .views-field-field-bullet-points ul li {
+  /*list-style-image: url('')*/
+}
