@@ -7395,6 +7395,11 @@ h1, h2, h3 {
 }
 
 /* line 22, ../scss/theme/ubiq/_typography.scss */
+.pane-title {
+  color: #000000;
+}
+
+/* line 26, ../scss/theme/ubiq/_typography.scss */
 .site-slogan {
   font-size: 1.0em;
   font-weight: normal;
@@ -7464,4 +7469,20 @@ and open the template in the editor.
 /* line 63, ../scss/theme/ubiq/_navigation.scss */
 .l-footer-columns .menu li a {
   color: #9c9c9c;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Mar-2014, 16:30:36
+    Author     : theonicolaou
+*/
+/* line 12, ../scss/theme/ubiq/_taxi-formats.scss */
+.view-taxi-formatt .views-field-title {
+  color: #000000;
+  font-size: 1.7em;
+  text-transform: uppercase;
 }
