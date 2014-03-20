@@ -26,6 +26,38 @@ and open the template in the editor.
         }
     }
     
+    .views-field-field-featured-image-caption {
+        background-color: #636367;
+        opacity: 0.6;
+        color: #ffffff;
+        width: 35%;
+        padding: 1em 0.8em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* TODO: this will be a "read-more" class */
+    .views-field-view-node {
+        a {
+            text-transform: uppercase;
+            border: 1px dotted #9c9c9c;
+            padding: 0.75em 0.6em;
+            color: #9c9c9c;
+        }
+    }
+}
+
+.view-news-items {
+    .views-field-title {
+        border-top: 2px dotted #9c9c9c;
+        border-bottom: 2px dotted #9c9c9c;
+        padding: 0.9em 0;
+        margin: 0 0 1.1em 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #b60604;
+    }
+
     .views-field-view-node {
         a {
             text-transform: uppercase;
