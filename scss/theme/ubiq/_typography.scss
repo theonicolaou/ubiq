@@ -8,6 +8,13 @@ and open the template in the editor.
     Author     : theonicolaou
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.site-slogan {
+    font-size: 1.0em;
+    font-weight: normal;
 }
