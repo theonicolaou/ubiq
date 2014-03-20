@@ -7,7 +7,7 @@ body {
 }
 
 .pane-home-cabbie-testimonial {
-    background: #9c0000; /* Old browsers */
+    background: $darkRed; /* Old browsers */
     background: -moz-linear-gradient(top,  #9c0000 0%, #be0000 49%, #9c0000 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9c0000), color-stop(49%,#be0000), color-stop(100%,#9c0000)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  #9c0000 0%,#be0000 49%,#9c0000 100%); /* Chrome10+,Safari5.1+ */
@@ -16,22 +16,22 @@ body {
     background: linear-gradient(to bottom,  #9c0000 0%,#be0000 49%,#9c0000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c0000', endColorstr='#9c0000',GradientType=0 ); /* IE6-9 */
     color: #ffffff;
-    padding: 15px;
+    padding: 0.95em;
     .pane-title {
         color: #ffffff;
     }
 } 
 
-.pane-home-client-testimonial{
-    padding:15px;
+.pane-home-client-testimonial {
+    padding: 0.95em;
 }
 
 .page-home {
-    .pane-taxi-formats-menu{
-        .pane-title{
-            border-top: 1px dotted #9c9c9c;
-            border-bottom: 1px dotted #9c9c9c;
-            padding: 10px 0 10px 0;
+    .pane-taxi-formats-menu {
+        .pane-title {
+            border-top: 1px dotted $lightGrey;
+            border-bottom: 1px dotted $lightGrey;
+            padding: 0.6em 0;
         }
     }
 }
