@@ -116,7 +116,7 @@
         
 
    </header>
-  </section>>
+  </section>
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
     <section class="l-featured row">
