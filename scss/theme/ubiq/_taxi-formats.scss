@@ -8,16 +8,26 @@ and open the template in the editor.
     Author     : theonicolaou
 */
 
-.view-taxi-formatt {
-    .views-field-title {
-        color: #000000;
-        font-size: 1.8em;
-        text-transform: uppercase;
+.page-taxi-formats {
+    .view-taxi-formats-menu {
+        border-bottom: 1px dotted $lightGrey;
+        border-top: 1px dotted $lightGrey;
+        padding: 1.4em 0;
+        margin-top: 1.1em;
     }
-    .views-field-field-bullet-points {
-        ul {
-            li {
-                list-style-image: url('../images/taxi_bullet_point.jpg');
+
+    .view-taxi-formatt {
+        .views-field-title {
+            color: #000000;
+            font-size: 1.8em;
+            text-transform: uppercase;
+        }
+
+        .item-list {
+            ul {
+                li {
+                    list-style-image: url('../images/taxi_bullet_point.jpg');
+                }
             }
         }
     }
