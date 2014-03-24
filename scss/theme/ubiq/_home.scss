@@ -46,20 +46,14 @@ body {
     }
 }
 
-.pane-home-generic-promotion {
+.view-home-generic-promotion {
     padding: 0.95em 0;
-
-    .views-field-title {
-        color: #000000;
-        font-size: 1.5em;
-        text-transform: uppercase;
-    }
 
     .views-field-body {
         margin-top: 1em;
     }
 
-    .views-field-field-link-button-label {
+    .generic-promotion-link-button-label {
         a {
             text-transform: uppercase;
             border: 1px dotted $lightGrey;
