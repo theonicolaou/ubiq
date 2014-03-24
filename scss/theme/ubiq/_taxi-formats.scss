@@ -23,8 +23,9 @@ and open the template in the editor.
             text-transform: uppercase;
         }
 
-        .item-list {
-            ul {
+
+        ul {
+            &.taxi-formats-bullets {
                 li {
                     list-style-image: url('../images/taxi_bullet_point.jpg');
                 }
