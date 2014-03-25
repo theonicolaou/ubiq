@@ -100,7 +100,7 @@
         <nav id="main-menu" class="navigation" role="navigation">
             <div class="row">
                 <div class="large-2 columns">
-                    <a href="#"><img src="<?php print base_path() . path_to_theme(); ?>/images/agencies_signpost.jpg" /></a> 
+                    <a href="content/agencies"><img src="<?php print base_path() . path_to_theme(); ?>/images/agencies_signpost.jpg" /></a> 
                 </div>
                 <div class="large-8 columns">
                     <?php if ($alt_main_menu): ?>                    
@@ -108,7 +108,7 @@
                     <?php endif; ?>
                 </div>
                 <div class="large-2 columns">
-                    <a href="#" style=""><img src="<?php print base_path() . path_to_theme(); ?>/images/advertisers_signpost.jpg" /></a> 
+                    <a href="content/advertisers" style=""><img src="<?php print base_path() . path_to_theme(); ?>/images/advertisers_signpost.jpg" /></a> 
                 </div>
             </div>
 
@@ -240,19 +240,20 @@
 
   <!--.l-footer-->
   
-  <footer class="l-footer panel row" role="contentinfo">
-    <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12 columns">
-        <?php print render($page['footer']); ?>
-      </div>
-    <?php endif; ?>
+  <!-- Footer removed by Theo -->
+<!--  <footer class="l-footer panel row" role="contentinfo">-->
+    <?php // if (!empty($page['footer'])): ?>
+<!--      <div class="footer large-12 columns">-->
+        <?php // print render($page['footer']); ?>
+<!--      </div>-->
+    <?php // endif; ?>
 
-    <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
-      </div>
-    <?php endif; ?>
-  </footer>
+    <?php // if ($site_name) :?>
+<!--      <div class="copyright large-12 columns">-->
+        <!--&copy;--> <?php // print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
+<!--      </div>-->
+    <?php // endif; ?>
+<!--  </footer>-->
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
