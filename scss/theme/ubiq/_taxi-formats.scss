@@ -24,11 +24,9 @@ and open the template in the editor.
         }
 
 
-        ul {
-            &.taxi-formats-bullets {
-                li {
-                    list-style-image: url('../images/taxi_bullet_point.jpg');
-                }
+        .taxi-formats-bullets {
+            li {
+                list-style-image: url('../images/taxi_bullet_point.jpg');
             }
         }
     }
