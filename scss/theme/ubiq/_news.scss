@@ -8,8 +8,13 @@ and open the template in the editor.
     Author     : theonicolaou
 */
 
+.pane-featured-news-item {
+    .pane-title {
+        @extend %title-dotted;
+    }
+}
 .view-featured-news-item {
-    .views-field-title {
+    .component-title {
         @extend %title-dotted;
         margin: 0 0 1.1em 0;
         font-size: 1.5em;
@@ -24,7 +29,7 @@ and open the template in the editor.
         }
     }
     
-    .views-field-field-featured-image-caption {
+    .news-featured-image-caption {
         background-color: #636367;
         opacity: 0.6;
         color: #ffffff;
@@ -32,10 +37,13 @@ and open the template in the editor.
         padding: 1em 0.8em;
         text-align: center;
         text-transform: uppercase;
+        position: relative;
+        bottom: 45px;
+        right: -120px;
     }
 
     /* TODO: this will be a "read-more" class */
-    .views-field-view-node {
+    .read-more {
         a {
             text-transform: uppercase;
             border: 1px dotted $lightGrey;
