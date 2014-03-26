@@ -30,7 +30,7 @@ and open the template in the editor.
     }
     
     .view-content {
-        padding: 0 0 2em 0;
+        padding: 0 0 1.5em 0;
     }
 
     .news-featured-image-caption {
@@ -55,6 +55,7 @@ and open the template in the editor.
                 border: 1px dotted $lightGrey;
                 padding: 0.75em 0.6em;
                 color: $darkGrey;
+                display: inline-block;
             }
         }
     }
@@ -69,13 +70,22 @@ and open the template in the editor.
         color: $darkRed;
     }
     
+    .news-row {
+        padding: 0 0 1.5em 0;
+    }
+    
     /* TODO: this will be a "read-more" class */
     .views-field-view-node {
-        a {
-            text-transform: uppercase;
-            border: 1px dotted $lightGrey;
-            padding: 0.75em 0.6em;
-            color: $darkGrey;
+        text-align:right;
+        .read-more { 
+            a {
+                text-transform: uppercase;
+                border: 1px dotted $lightGrey;
+                padding: 0.75em 0.6em;
+                color: $darkGrey;
+                display: inline-block;
+
+            }
         }
     }
 }
