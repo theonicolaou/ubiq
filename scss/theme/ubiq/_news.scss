@@ -29,6 +29,10 @@ and open the template in the editor.
         }
     }
     
+    .view-content {
+        padding: 0 0 2em 0;
+    }
+
     .news-featured-image-caption {
         background-color: #636367;
         opacity: 0.6;
@@ -43,12 +47,15 @@ and open the template in the editor.
     }
 
     /* TODO: this will be a "read-more" class */
-    .read-more {
-        a {
-            text-transform: uppercase;
-            border: 1px dotted $lightGrey;
-            padding: 0.75em 0.6em;
-            color: $darkGrey;
+    .views-field-view-node {
+        text-align: right;
+        .read-more {
+            a {
+                text-transform: uppercase;
+                border: 1px dotted $lightGrey;
+                padding: 0.75em 0.6em;
+                color: $darkGrey;
+            }
         }
     }
 }
