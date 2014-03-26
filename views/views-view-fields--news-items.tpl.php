@@ -21,7 +21,7 @@
  *     configured element type.
  * - $row: The raw result object from the query, with all data it fetched.
  *
- * @ingroup views_templates
+ * @ingroup views_templates 
  */
 ?>
 <?php foreach ($fields as $id => $field): ?>
