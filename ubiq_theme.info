@@ -44,12 +44,12 @@ scripts[] = js/vendor/custom.modernizr.js
 ; Foundation framework scripts (minified).
 ; If you prefer to have more control over which components are included you
 ; can comment this line and uncomment the ones below you want.
-scripts[] = js/foundation.min.js
+;scripts[] = js/foundation.min.js
 
 ; Foundation framework scripts (uncompressed).
-;scripts[] = js/foundation/foundation.js
+scripts[] = js/foundation/foundation.js
 ;scripts[] = js/foundation/foundation.abide.js
-;scripts[] = js/foundation/foundation.alerts.js
+scripts[] = js/foundation/foundation.alerts.js
 ;scripts[] = js/foundation/foundation.clearing.js
 ;scripts[] = js/foundation/foundation.cookie.js
 ;scripts[] = js/foundation/foundation.dropdown.js
@@ -57,9 +57,9 @@ scripts[] = js/foundation.min.js
 ;scripts[] = js/foundation/foundation.interchange.js
 ;scripts[] = js/foundation/foundation.joyride.js
 ;scripts[] = js/foundation/foundation.magellan.js
-;scripts[] = js/foundation/foundation.orbit.js
+scripts[] = js/foundation/foundation.orbit.js
 ;scripts[] = js/foundation/foundation.placeholder.js
-;scripts[] = js/foundation/foundation.reveal.js
+scripts[] = js/foundation/foundation.reveal.js
 ;scripts[] = js/foundation/foundation.section.js
 ;scripts[] = js/foundation/foundation.tooltips.js
 ;scripts[] = js/foundation/foundation.topbar.js
